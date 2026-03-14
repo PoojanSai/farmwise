@@ -1,0 +1,84 @@
+{
+  "welcome": "FarmWise కి స్వాగతం",
+  "login": "లాగిన్",
+  "register": "నమోదు చేయండి",
+  "getStartedFree": "ఉచితంగా ప్రారంభించండి",
+  "alreadyHaveAccount": "నాకు ఇప్పటికే ఖాతా ఉంది",
+  "smartFarmingStarts": "స్మార్ట్ వ్యవసాయం మొదలవుతుంది",
+  "heroSubtitle": "AI-ఆధారిత పంట సిఫార్సులు, నేల ఆరోగ్య పర్యవేక్షణ, నిపుణుల సలహాలు మరియు సంపూర్ణ డిజిటల్ మార్కెట్ — భారతీయ రైతులకు ఒకే వేదికపై.",
+  "everythingAFarmerNeeds": "రైతుకు అవసరమైన ప్రతిదీ",
+  "featuresSubtitle": "నేల నుండి అమ్మకం వరకు — FarmWise మొత్తం వ్యవసాయ ప్రయాణాన్ని కవర్ చేస్తుంది",
+  "howFarmWiseWorks": "FarmWise ఎలా పని చేస్తుంది",
+  "farmersLoveFarmWise": "రైతులు FarmWise ని ఇష్టపడతారు",
+  "readyToFarmSmarter": "స్మార్ట్‌గా వ్యవసాయం చేయడానికి సిద్ధంగా ఉన్నారా?",
+  "ctaSubtitle": "50,000+ రైతులు ఇప్పటికే FarmWise ని ఉపయోగించి దిగుబడి మరియు ఆదాయాన్ని పెంచుకుంటున్నారు.",
+  "createFreeAccount": "ఉచిత ఖాతా సృష్టించండి",
+  "smartDigitalPlatform": "భారతీయ రైతులకు స్మార్ట్ డిజిటల్ వేదిక",
+  "nav": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "soilTesting": "నేల పరీక్ష",
+    "aiCropAdvisor": "AI పంట సలహాదారు",
+    "expertConsult": "నిపుణుల సలహా",
+    "krishiBhandhu": "కృషి బంధు",
+    "krishiVikretha": "కృషి విక్రేత",
+    "analytics": "విశ్లేషణలు",
+    "companyTieUps": "కంపెనీ భాగస్వామ్యాలు",
+    "logout": "లాగ్ అవుట్"
+  },
+  "dashboard": {
+    "goodMorning": "శుభోదయం, {{name}}! 🌅",
+    "totalLand": "మొత్తం భూమి",
+    "soilHealth": "నేల ఆరోగ్యం",
+    "topCropAdvice": "టాప్ పంట సలహా",
+    "expertAppointments": "నిపుణుల అపాయింట్‌మెంట్లు",
+    "upcomingConsultations": "రాబోయే సలహాలు",
+    "noSoilReport": "ఇంకా నేల నివేదిక లేదు. మీ మొదటి నేల పరీక్ష చేయండి!",
+    "startSoilTest": "నేల పరీక్ష ప్రారంభించండి",
+    "latestSoilReport": "🧪 తాజా నేల నివేదిక",
+    "newTest": "కొత్త పరీక్ష",
+    "aiCropRecommendations": "🤖 AI పంట సిఫార్సులు",
+    "getNew": "కొత్తవి పొందండి →",
+    "noRecommendations": "ఇంకా సిఫార్సులు లేవు",
+    "runAIAnalysis": "AI విశ్లేషణ అమలు చేయండి",
+    "noUpcomingConsultations": "రాబోయే సలహాలు లేవు",
+    "findAnExpert": "నిపుణుడిని వెతుకండి",
+    "buyInputs": "ఇన్‌పుట్‌లు కొనండి",
+    "sellCrops": "పంటలు అమ్మండి",
+    "marketAnalytics": "మార్కెట్ విశ్లేషణలు",
+    "companyBuyers": "కంపెనీ కొనుగోలుదారులు"
+  },
+  "soilTest": {
+    "title": "నేల పరీక్ష",
+    "subtitle": "మీ నేల NPK, pH మరియు తేమను విశ్లేషించండి"
+  },
+  "cropRecommend": {
+    "title": "AI పంట సలహాదారు",
+    "subtitle": "AI-ఆధారిత పంట సిఫార్సులు పొందండి"
+  },
+  "experts": {
+    "title": "నిపుణుల సలహా",
+    "subtitle": "ధృవీకరించిన వ్యవసాయ నిపుణులతో కనెక్ట్ అవుత్తుంది"
+  },
+  "marketplace": {
+    "title": "కృషి బంధు - మార్కెట్",
+    "subtitle": "విత్తనాలు, ఎరువులు మరియు పరికరాలు ఉత్తమ ధరలకు కొనండి"
+  },
+  "cropSelling": {
+    "title": "కృషి విక్రేత",
+    "subtitle": "మీ పంటను నేరుగా కొనుగోలుదారులకు అమ్మండి"
+  },
+  "analytics": {
+    "title": "మార్కెట్ విశ్లేషణలు",
+    "subtitle": "లైవ్ చార్ట్‌లతో మార్కెట్ ట్రెండ్‌లను ట్రాక్ చేయండి"
+  },
+  "companies": {
+    "title": "కంపెనీ భాగస్వామ్యాలు",
+    "subtitle": "ధృవీకరించిన కంపెనీ కొనుగోలుదారులతో కనెక్ట్ అవుతుంది"
+  },
+  "language": {
+    "select": "భాష ఎంచుకోండి",
+    "en": "English",
+    "hi": "हिन्दी",
+    "te": "తెలుగు"
+  }
+}

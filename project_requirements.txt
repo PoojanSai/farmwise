@@ -1,0 +1,62 @@
+# FarmWise Project Requirements
+
+## Overview
+FarmWise is a Smart Digital Platform for Farmers, helping them make data-driven agricultural decisions using soil analysis, AI crop recommendations, expert consultation, and a digital marketplace.
+
+## System Prerequisites
+- **Python:** 3.10 or higher
+- **Node.js:** 18 or higher
+- **Database:** PostgreSQL 14 or higher
+
+## Backend Requirements (Python / Django)
+The backend is built with Django and Django REST Framework, incorporating machine learning features. 
+
+### Core Frameworks & Libraries
+- Django (4.2.9)
+- Django REST Framework (3.14.0)
+- djangorestframework-simplejwt (5.3.1) - For JWT Authentication
+- django-cors-headers (4.3.1) - For handling Cross-Origin Resource Sharing
+- psycopg2-binary (2.9.9) - PostgreSQL database adapter
+
+### Machine Learning & Data Processing
+- scikit-learn (1.4.0)
+- numpy (1.26.4)
+- pandas (2.2.0)
+- joblib (1.3.2) - To save/load ML models (Random Forest, etc.)
+
+### Utilities
+- python-decouple (3.8) & python-dotenv (1.0.1) - Environment variable management
+- Pillow (10.2.0) - Image processing capabilities
+- django-filter (23.5) - Filtering capabilities for Django REST API
+
+## Frontend Requirements (React / Vite)
+The frontend is a single-page application built using React and modern build tools.
+
+### Core Frameworks & Build Tools
+- React & React DOM (^18.2.0)
+- Vite (^5.1.0) - Fast frontend build tool
+- Node.js environment
+
+### Styling
+- Tailwind CSS (^3.4.1)
+- PostCSS & Autoprefixer
+
+### Networking & Routing
+- react-router-dom (^6.22.0) - For client-side routing
+- axios (^1.6.7) - For HTTP requests to the backend API
+
+### Data Visualization & UI Utilities
+- chart.js (^4.4.1) & react-chartjs-2 (^5.2.0) - For analytics and visual charts
+- react-hot-toast (^2.4.1) - For toast notifications
+- react-icons (^5.0.1) - For generic UI icons
+- date-fns (^3.3.1) - For date parsing and formatting
+
+## Features Covered by these Technologies
+1. Farmer Registration & JWT Authentication
+2. Soil Testing System with visualizations (React ChartJS)
+3. AI Crop Recommendation (Scikit-Learn Random Forest)
+4. Expert Consultation Booking
+5. Farm Input Marketplace (Krishi Bhandhu Sampadha)
+6. Crop Selling (Krishi Vikretha)
+7. Supply & Demand Analytics
+8. Company Tie-Ups

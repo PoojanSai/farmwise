@@ -1,0 +1,84 @@
+{
+  "welcome": "Welcome to FarmWise",
+  "login": "Login",
+  "register": "Register",
+  "getStartedFree": "Get Started Free",
+  "alreadyHaveAccount": "I already have an account",
+  "smartFarmingStarts": "Smart Farming Starts",
+  "heroSubtitle": "AI-powered crop recommendations, soil health monitoring, expert consultations, and a complete digital marketplace — all in one platform for Indian farmers.",
+  "everythingAFarmerNeeds": "Everything a Farmer Needs",
+  "featuresSubtitle": "From soil to sale — FarmWise covers the complete farming journey",
+  "howFarmWiseWorks": "How FarmWise Works",
+  "farmersLoveFarmWise": "Farmers Love FarmWise",
+  "readyToFarmSmarter": "Ready to Farm Smarter?",
+  "ctaSubtitle": "Join 50,000+ farmers who are already using FarmWise to increase yield and income.",
+  "createFreeAccount": "Create Free Account →",
+  "smartDigitalPlatform": "Smart Digital Platform for Indian Farmers",
+  "nav": {
+    "dashboard": "Dashboard",
+    "soilTesting": "Soil Testing",
+    "aiCropAdvisor": "AI Crop Advisor",
+    "expertConsult": "Expert Consult",
+    "krishiBhandhu": "Krishi Bhandhu",
+    "krishiVikretha": "Krishi Vikretha",
+    "analytics": "Analytics",
+    "companyTieUps": "Company Tie-Ups",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "goodMorning": "Good Morning, {{name}}! 🌅",
+    "totalLand": "Total Land",
+    "soilHealth": "Soil Health",
+    "topCropAdvice": "Top Crop Advice",
+    "expertAppointments": "Expert Appointments",
+    "upcomingConsultations": "Upcoming Consultations",
+    "noSoilReport": "No soil report yet. Run your first soil test!",
+    "startSoilTest": "Start Soil Test",
+    "latestSoilReport": "🧪 Latest Soil Report",
+    "newTest": "New Test",
+    "aiCropRecommendations": "🤖 AI Crop Recommendations",
+    "getNew": "Get New →",
+    "noRecommendations": "No recommendations yet",
+    "runAIAnalysis": "Run AI Analysis",
+    "noUpcomingConsultations": "No upcoming consultations",
+    "findAnExpert": "Find an Expert",
+    "buyInputs": "Buy Inputs",
+    "sellCrops": "Sell Crops",
+    "marketAnalytics": "Market Analytics",
+    "companyBuyers": "Company Buyers"
+  },
+  "soilTest": {
+    "title": "Soil Testing",
+    "subtitle": "Analyse your soil's NPK, pH and moisture"
+  },
+  "cropRecommend": {
+    "title": "AI Crop Advisor",
+    "subtitle": "Get AI-powered crop recommendations"
+  },
+  "experts": {
+    "title": "Expert Consultation",
+    "subtitle": "Connect with certified agronomists"
+  },
+  "marketplace": {
+    "title": "Krishi Bhandhu - Marketplace",
+    "subtitle": "Buy seeds, fertilizers and tools at best prices"
+  },
+  "cropSelling": {
+    "title": "Krishi Vikretha",
+    "subtitle": "Sell your harvest directly to verified buyers"
+  },
+  "analytics": {
+    "title": "Market Analytics",
+    "subtitle": "Track market trends with live charts"
+  },
+  "companies": {
+    "title": "Company Tie-Ups",
+    "subtitle": "Connect with verified company buyers"
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "hi": "हिन्दी",
+    "te": "తెలుగు"
+  }
+}
