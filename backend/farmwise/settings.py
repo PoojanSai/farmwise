@@ -7,6 +7,7 @@ from datetime import timedelta
 from decouple import config
 import os
 from decouple import config
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -43,13 +44,13 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'farmwise.urls'
@@ -75,14 +76,9 @@ ASGI_APPLICATION = 'farmwise.asgi.application'
 
 # ------------------------------------------------------------------ Database
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'farmwise',
-        'USER': 'postgres',
-        'PASSWORD': 'saii',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 
 
@@ -118,11 +114,13 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'http://localhost:3000',
-    "https://farmwise-pi.vercel.app/",
+    "https://farmwise-pi.vercel.app",
 ]
-CORS_ALLOW_ALL_ORIGINS = True   # convenient for local dev
 CORS_ALLOW_CREDENTIALS = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://farmwise-pi.vercel.app"
+]
 # -------------------------------------------------- Password validators (dev)
 AUTH_PASSWORD_VALIDATORS = []   # disabled for easy local testing
 
